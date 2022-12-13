@@ -73,5 +73,3 @@ Heap'taki nesnelere biz direkt erişemesekte Stack'teki referanslar erişebilmek
 
 
 
-
-
