@@ -3,6 +3,7 @@
 OOP'de bir obje oluşuturabilmek için o öncelikle o objenin/nesnenin öncelikle modellenmesi gerekir.
 Bu objenin modelini oluşturmak için class yapısı kullanılır.Bu sayede bir object üretilebilir.
 Class'lar referans türüdür.!!
+Class'lar türdür !!! Oluşturduğun nesnenin türüdür!!!
 
 
 
