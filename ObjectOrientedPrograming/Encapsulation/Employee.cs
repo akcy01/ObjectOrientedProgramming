@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace ObjectOrientedPrograming.Encapsulation
 {
-    internal class Employee
+    public class Employee
     {
+        public int Id { get; set; } 
+        public string Name { get; set; }
+        public string City { get; set; }
     }
 }

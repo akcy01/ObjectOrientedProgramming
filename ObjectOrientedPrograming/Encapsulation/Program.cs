@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace ObjectOrientedPrograming.Encapsulation
 {
-    internal class Program
+    public class Program
     {
+        static void Main(string[] args)
+        {
+            Employee emp = new Employee();
+            emp.Id = 1;
+            emp.Name = "Test";
+            emp.City = "A";
+        }
     }
 }
