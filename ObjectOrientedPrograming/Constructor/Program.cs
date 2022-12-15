@@ -1,12 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ObjectOrientedPrograming.Constructor
+﻿namespace ObjectOrientedPrograming.Constructor
 {
-    internal class Program
+    public class Program
     {
+        static void Main(string[] args)
+        {
+            new MyClass();//İlk olarak oluşturduğumuz constructor metot devreye girecektir.
+            new MyClass(2, 4);
+            new MyClass("Oğuz Akçay");
+        }
     }
 }
