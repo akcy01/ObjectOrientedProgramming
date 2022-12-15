@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace ObjectOrientedPrograming.Inheritance
 {
-    internal class Program
+    public class Program
     {
+        static void Main(string[] args)
+        {
+            Developer developer= new Developer();
+            developer.Name = "Oğuz"; //Kalıtım sayesinde developer sınıfında isim propu oluşturmadan isim atayabildik!!
+        }
     }
 }

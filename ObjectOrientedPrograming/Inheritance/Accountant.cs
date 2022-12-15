@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace ObjectOrientedPrograming.Inheritance
 {
-    internal class Accountant
+    public class Accountant : Employee
     {
+        public bool Musavir { get; set; } //Bu sadece müşavir'e özel..
+
+        //Employee'nin ortak özellikleri gelecek!
     }
 }

@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace ObjectOrientedPrograming.Inheritance
 {
-    internal class Employee
+    public class Employee
     {
+        public string Name { get; set; }   
+        public string Surname { get; set; }
+        public bool IsMarried { get; set; }
+
     }
 }

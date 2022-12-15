@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace ObjectOrientedPrograming.Inheritance
 {
-    internal class Manager
+    public class Manager : Employee
     {
+
     }
 }
