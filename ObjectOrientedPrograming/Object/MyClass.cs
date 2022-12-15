@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace ObjectOrientedPrograming.Object
 {
-    internal class MyClass
+    public class MyClass
     {
+        public int MyProperty { get; set; }
+        public string Name { get; set; }    
+
+        public void X()
+        {
+
+        }
     }
 }

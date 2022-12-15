@@ -14,6 +14,14 @@ namespace ObjectOrientedPrograming.Object
 
             MyClass oguz = new MyClass();   //oguz isminde bir referans tanımladık.Bunun sayesinde heap'daki nesneye erişebiliriz.
             MyClass sena = new();          //Bu şekilde de nesne oluşturulabilir.
+
+
+            /* Object Initializer */
+            MyClass m = new MyClass()
+            {
+                MyProperty = 1,
+                Name = "a",
+            };
         }
     }
 }
