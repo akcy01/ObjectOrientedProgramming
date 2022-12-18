@@ -49,3 +49,9 @@ Haliyle bizler nesne üretimi esnasında base class'ta ğretilecek olan nesnenin
 Sen ilgili class'da constructor oluşturmasan dahi orda default olarak bir constructor vardır.Yoksa nesne üretemezdi!!!!
 
 Base keyword'ün kullanımını ilgili dosyada anlattım.!!!!
+
+
+#Tüm Nesnelerin Atası Object Türü
+C# Programlama dilinde tüm sınıflar Object sınıfından türetilir.Bundan dolayı bir nesne yazdığında otomatik olarak 
+Equals,GetHashCode,GetType,ToString gibi metotlar gelir..C#'da Tüm Sınıflar object sınıfından türetilir bunu asla unutma !!
+

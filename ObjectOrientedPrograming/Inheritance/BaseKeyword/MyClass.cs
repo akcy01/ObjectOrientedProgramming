@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace ObjectOrientedPrograming.Inheritance.BaseKeyword
 {
-    internal class MyClass
+    public class MyClass
     {
+        public MyClass(int a)
+        {
+
+        }
     }
 }
