@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace ObjectOrientedPrograming.Interface.Example2
 {
-    internal interface Topla
+    public interface Topla
     {
+        public void ToplamaIslemi(int numberOne,int numberTwo);
     }
 }

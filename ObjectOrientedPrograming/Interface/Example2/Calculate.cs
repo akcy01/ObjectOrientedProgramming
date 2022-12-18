@@ -6,7 +6,22 @@ using System.Threading.Tasks;
 
 namespace ObjectOrientedPrograming.Interface.Example2
 {
-    internal class Calculate
+    public class Calculate : Bol, Cikar, Topla
     {
+        public void BolmeIslemi(int numberOne, int numberTwo)
+        {
+            Console.WriteLine(numberOne / numberTwo);
+        }
+
+        public void CikarmaIslemi(int numberOne, int numberTwo)
+        {
+            Console.WriteLine(numberOne - numberTwo);
+        }
+
+        public void ToplamaIslemi(int numberOne, int numberTwo)
+        {
+            Console.WriteLine(numberOne + numberTwo);
+        }
+
     }
 }

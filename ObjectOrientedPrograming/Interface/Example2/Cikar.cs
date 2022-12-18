@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace ObjectOrientedPrograming.Interface.Example2
 {
-    internal interface Cikar
+    public interface Cikar
     {
+        public void CikarmaIslemi(int numberOne,int numberTwo);
     }
 }

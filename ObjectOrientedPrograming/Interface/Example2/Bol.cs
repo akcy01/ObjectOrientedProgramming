@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace ObjectOrientedPrograming.Interface.Example2
 {
-    internal interface Bol
+    public interface Bol
     {
+        public void BolmeIslemi(int numberOne, int numberTwo);
     }
 }
