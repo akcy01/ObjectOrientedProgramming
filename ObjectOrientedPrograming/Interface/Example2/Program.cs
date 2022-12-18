@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace ObjectOrientedPrograming.Interface.Example2
 {
-    internal class Program
+    public class Program
     {
+        static void Main(string[] args)
+        {
+            Calculate clc= new Calculate();
+            clc.ToplamaIslemi(15, 7);
+        }
     }
 }
